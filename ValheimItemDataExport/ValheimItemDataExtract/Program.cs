@@ -1,4 +1,5 @@
 ﻿using CsvHelper;
+using ValheimItemDataExtract;
 
 // Print help if asked for
 if (args.Length > 0 && new string[] { "/?", "--help" }.Any(s => args[0].ToLower().Equals(s)))
@@ -7,6 +8,9 @@ if (args.Length > 0 && new string[] { "/?", "--help" }.Any(s => args[0].ToLower(
     Console.WriteLine($"Extract Valheim item data from unpacked Unity assets within ASSETROOT directory and write them to CSVFILE.");
     Environment.Exit(0);
 }
+
+// Test
+//var x = new CodeFactory().ClassToString<SharedItemData>();
 
 // Prepare what we need in order to run, including using defaults if cmdline args are missing
 var PathRoot = args.Length > 0 ? args[0] : @"c:\_temp\ValheimExports\AssetRipper\globalgamemanagers\ExportedProject\";
