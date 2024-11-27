@@ -2,7 +2,7 @@
 
 Tool to extract Valheim inventory item data from asset files. 
 
-Note: asset files has to be extracted from the game beforehand using another tool, e.g., AssetRipper.
+Note: asset files has to be extracted from the game beforehand using another tool, e.g., AssetRipper. Short description on how to do that below. One way of doing it.
 
 # Credits
 I didn't come up with the concept of this program at all. User [Brandon-T](https://github.com/Brandon-T) did, in a discussion [here](https://github.com/Wufflez/Loki/issues/30). I just got inspired and wrote my own version in C# and used it as an excuse to explore things related to this. It's somewhat modified to actually work as a real program and not the hack I started out to do.
